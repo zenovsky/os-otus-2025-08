@@ -1,10 +1,4 @@
-import pytest
-from lib.db import (
-    create_customer,
-    get_customer_by_id,
-    update_customer,
-    delete_customer
-)
+from lib.db import create_customer, delete_customer, get_customer_by_id, update_customer
 
 
 def test_create_customer(connection):

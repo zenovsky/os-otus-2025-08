@@ -1,5 +1,5 @@
-import pytest
 import pymysql
+import pytest
 
 
 def pytest_addoption(parser):
